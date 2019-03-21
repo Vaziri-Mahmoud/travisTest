@@ -9,7 +9,7 @@ class mahmoud98(unittest.TestCase):
             code.mahmoud98.op(3, 8)
 
     def test_good_val(self):
-        assert('a = b')
+        self.assertEqual(code.mahmoud98.op(3, 3), 'a = b')
 
 
 if __name__ == '__main__':
