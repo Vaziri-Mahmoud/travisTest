@@ -19,7 +19,7 @@ class mahmoud98():
         else:
             raise ValueError("Error a != b")
 
-    def op2(a)
+    def op2(a):
         return a * 2
 
 
