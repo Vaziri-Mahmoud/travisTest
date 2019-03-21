@@ -10,4 +10,8 @@ script:
   - coverage xml tests.py
   - export CODACY_PROJECT_TOKEN=3a2bd2d4f11746da8d93632ed971dec6
   - python-codacy-coverage -r coverage.xml
+  - codecov
+  - codecov --token=55b29693-7565-4cbd-8b85-71f31e489b64
+
+
 
