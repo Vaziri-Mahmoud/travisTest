@@ -13,7 +13,7 @@ script:
   - python-codacy-coverage -r coverage.xml
   
 after_success:
-  - codecov --token=55b29693-7565-4cbd-8b85-71f31e489b64
+  - codecov 
 
 
 
