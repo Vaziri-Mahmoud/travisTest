@@ -19,8 +19,12 @@ class mahmoud98():
         else:
             raise ValueError("Error a != b")
 
+    def op2(a)
+        return a * 2
+
 
 if __name__ == '__main__':
     mahmoud98.pr()
     # nump()
     mahmoud98.op(5, 3)
+    mahmoud98.op2(18)
