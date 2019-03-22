@@ -1,6 +1,7 @@
 
 
 class mahmoud98():
+	'''
     def pr():
         print("Hi\nTravis CI test lang:python ")
         print("Happy new year : ", 1398, " :) ")
@@ -12,6 +13,8 @@ class mahmoud98():
         arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
         arr2 = np.power(arr, 2)
         print(arr2)
+    '''
+
 
     def op(a, b):
         if a == b:
@@ -21,6 +24,10 @@ class mahmoud98():
 
     def op2(a):
         return a * 2
+
+
+    def op3(a):
+    	return a-2
 
 '''
 if __name__ == '__main__':
