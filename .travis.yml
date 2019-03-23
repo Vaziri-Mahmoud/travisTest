@@ -1,15 +1,15 @@
 sudo: false
 language: python
 python:
-  - "3.6"
+- '3.6'
 install:
-  - pip install -r requirements.txt
-# command to run tests
+- pip install -r requirements.txt
 script:
-  - coverage run tests.py
-  - codecov 
-  - coverage report -m
-  - coverage xml tests.py
-
-
-
+- coverage run tests.py
+- codecov
+- coverage report -m
+- coverage xml tests.py
+- export CODACY_PROJECT_TOKEN=MY_SECRET_ENV
+env:
+  matrix:
+    secure: kC/Cyo6iijp0aUfoAYkYr/Pr9VMQ1TB1pGXCXPMZo2js+iltRn5QQyOe/ZgEgsZFoCiyxkrPYgmqn+0MkmQ1KT1vT09I+v2TeQlnWnHIIijotR1zYt8u1RSmyFRdFkH2amhXFFDWttk59+H02CsHUjsHSND9lgXZJAWsKoPjjXNjBKqpPSpUlNByW2lwPPIyI4N4ji/zfq0sikJzB8NUMNYHQAuXV0UYZ14X8UJ7AZBf9WzZf1SKvHFnM19fhIG0Ojn2eM2b9aW3yq04Zdqux4Yp5x8Js6L/rwBIfrtRrIj1V/th6JxC2NySHtJ1wLUql0w2h4UiNHXsLfa99HruEj1Ubi0ZCH5t3Yzxt4O/4M0evKezQcueTZyo6Uhc+Oarve11n9akl8gYNOVgU5Hi3sa+ny8//nmCWfmbAp4ow1vasxNhejdQ0joQG26zyr0oKpjmNxZoG/OI7YRsbsYr/WXQFBv7SZOc/tBSzvstuuWbmCsy0l/9sFEszZlYxeqMn5VGMBPtIPT02PmGnlPxPjop08uy+kiiw2Lu1j1nHZTkEdWpspHwXrDySDRpic5DRwDQghv05Z2l3b0+jeBVgDecC56WWSzsrPeQ2T8GJpIm7Tw+re3eCy5y05nPXLtr5vLRLsoerR2tRX7lHGHWxaET2n3rnlFzdMtWxmQwK4w=
